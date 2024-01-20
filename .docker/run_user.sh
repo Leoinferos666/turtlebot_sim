@@ -19,4 +19,6 @@ docker run -it --privileged \
     --volume="/dev:/dev" \
     --net=host \
     --cap-add=sys_nice \
+    --memory="8g" \
+    --cpus="4" \
     turtlebot_sim:latest
