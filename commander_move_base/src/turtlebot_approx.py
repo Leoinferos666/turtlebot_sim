@@ -38,4 +38,3 @@ if __name__ == '__main__':
         turtlebot_approx.run()
     except rospy.ROSInterruptException:
         rospy.loginfo("Shutting down turtlebot_approx node.")
-#test
