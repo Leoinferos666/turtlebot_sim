@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
